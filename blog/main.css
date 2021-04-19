@@ -1,6 +1,4 @@
-.nav-bar {
-    list-style-type: none;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,22 +7,14 @@
 .nav-bar {
     list-style-type: none;
     height: 7rem;
-    
+    list-style-type:none;
     overflow: hidden;
 }
-.about {
-    display: inline;
-    float: left;
-    font-size: 2rem;
-    text-align: center;
-    color: black;
-    width: 6rem;
-    margin: 1.5rem 1rem 0rem 1rem;
-    padding: 1rem;
-    border-right: black solid 1px;
-    border-left: black solid 1px;
-    
-    
+
+a:hover {
+    cursor: pointer;
+    color: blanchedalmond;
+    background-color: black;
 }
 .img-nav {
     
@@ -34,6 +24,10 @@
     display: inline;
     float: right;
     
+}
+.bread-crumb {
+    font-size: 1rem;
+    margin-left: 1rem;
 }
 
 .Heading {
@@ -62,8 +56,8 @@ h1 {
 .new-blog {
     margin: 3rem auto;
     text-align: center;
-    background-color: red;
-    max-width: 40%;
+    
+    max-width: 100%;
 }
 h4 {
     font-size: 3rem;
@@ -82,4 +76,24 @@ h2 {
     background-color: #D6DBDF;
     cursor: pointer;
     
+}
+body {
+    background-color: blanchedalmond;
+}
+a {
+ display: inline;
+    float: left;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 8rem;
+    max-width: 9rem;
+    margin: 1.5rem 1rem 0rem 1rem;
+    padding: 1rem;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+  
+
+  
 }
