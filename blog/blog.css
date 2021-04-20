@@ -72,3 +72,10 @@ h1 {
     font-size: 4rem;
     margin: 1rem 0rem;
 }
+.empty-link {
+    margin: 100px;
+    
+   
+    text-decoration: underline;
+    color: black;
+}
