@@ -13,7 +13,7 @@
 
 a:hover {
     cursor: pointer;
-    color: blanchedalmond;
+    color: white;
     background-color: black;
 }
 .img-nav {
@@ -38,6 +38,7 @@ a:hover {
 }
 h1 {
     font-size: 5rem;
+    color: black;
 }
 
 
@@ -53,12 +54,15 @@ h1 {
 }
 .new-blog p {
     font-size: 1.5rem;
+    color: black;
 }
 h4 {
     font-size: 3rem;
+    color: black;
 }
 h2 {
     font-size: 2rem;
+    color: black;
 }
 .current-blog {
     font-size: 1.5rem;
@@ -67,9 +71,8 @@ h2 {
     
 }
 
-
 body {
-    background-color: blanchedalmond;
+    background-color: white;
 }
 a {
  display: inline;
@@ -78,6 +81,7 @@ a {
     text-align: center;
     text-decoration: none;
     color: black;
+    
     width: 8rem;
     max-width: 9rem;
     margin: 1.5rem 1rem 0rem 1rem;
@@ -87,4 +91,7 @@ a {
   
 
   
+}
+hr {
+    color: #b53636;
 }
