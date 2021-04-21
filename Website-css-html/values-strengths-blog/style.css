@@ -17,3 +17,7 @@ body {
 p {
     font-size: 1rem
 }
+h1 {
+ margin: 2rem;
+ text-align: center;
+}
